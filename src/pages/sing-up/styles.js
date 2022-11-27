@@ -4,7 +4,7 @@ export const Container = styled.main`
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 80px;
 
     display: flex;
     flex-direction: row;
@@ -20,12 +20,15 @@ export const Column = styled.div`
     flex: 1;
 `
 
-export const Row = styled.div`
+export const Row = styled.button`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
 `
 
 
@@ -35,23 +38,24 @@ export const Title = styled.h2`
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    max-width: 90%;
+    max-width: 65%;
     margin-bottom: 20px;
     line-height: 44px;
 
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleCreateAccount = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
+    width: 120%;
     line-height: 44px;
     margin-bottom: 8px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleCreateAccount = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -61,28 +65,37 @@ export const SubtitleLogin = styled.p`
 `
 
 
-export const EsqueciText  = styled.button`
+export const Warning  = styled.p`
+    margin-top: 20px;
+    width: 120%;
+
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    color: #E5E044;
+    color: #FFFFFF;
 ` 
 
-export const CriarText =  styled.button`
+export const AlreadySignIn = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    
-    background: transparent;
-    border: none;
-    cursor: pointer;
+
+    color: #FFFFFF;
+` 
+
+export const LogInText =  styled.p`
+    margin-left: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+
     color: #23DD7A;
 `

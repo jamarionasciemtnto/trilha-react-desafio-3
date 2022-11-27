@@ -16,13 +16,14 @@ export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 `;
 
 export const Wrapper = styled.div`
     background-color: #151515;
     width: 100%;
     height: 47px;
-    display:flex
+    display: flex;
     justify-content: center;
     align-items: center
 `
